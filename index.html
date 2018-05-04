@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <title>HULANA</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="assets/bootstrap/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="assets/bootstrap/jquery-2.1.3.min.js"></script>
+    <script src="assets/bootstrap/bootstrap.min.js"></script>
+    <script defer src="assets/bootstrap/fontawesome.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="titre fixed-top">
+            <img src="assets/img/logo.png" alt="Logo">
+        </div>
+    </header>
+
+
+    <!-- BAR DE NAVIGATION -->
+    <nav class="navbar mainMenu">
+        <div class="container">
+            <ul class="nav navbar-nav">
+                <li>
+                    <a href="index.html">Accueil</a>
+                </li>
+                <li>
+                    <a href="profil.html">Profil</a>
+                </li>
+                <li>
+                    <a class="chat" href="chat.html">
+                        <i class="fas fa-comments"></i>
+                        Chat
+                    </a>
+                </li>
+                <li>
+                    <form class="navbar-form navbar-left">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Rechercher">
+                        </div>
+                        <button type="submit" class="btn btn-default btn-search">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </form>
+                </li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a class="logout" href="register.html">
+                        <i class="fa fa-sign-out-alt"></i>
+                        Déconnexion
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <div class="col-md-12 page-title">
+           
+        </div>
+        <!-- BAR DE SÉLECTION DE SPORT -->
+        <div id="sidebar" class="col-md-2">
+            <nav id="filters" class="navbar">
+                <ul>
+                    <li>
+                        <label class="check">Football
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                    </li>
+                    <li>
+                        <label class="check">Rugby
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                    </li>
+                    <li>
+                        <label class="check">Tennis
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                    </li>
+                    <li>
+                        <label class="check">MMA
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                    </li>
+                    <li>
+                        <label class="check">Skateboard
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                    </li>
+                    <li>
+                        <label class="check">Golf
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                    </li>
+                    <li>
+                        <label class="check">Basket
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                    </li>
+                    <li>
+                        <label class="check">Esport
+                            <input type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                    </li>
+                </ul>
+                <button type="button" class="btn btn-warning">
+                    <i class="fa fa-check"></i>
+                </button>
+            </nav>
+        </div>
+
+        <!-- FIL D'ACTUALITÉ -->
+        <div class="col-md-9">
+            <div class="posts">
+                <div class="panel">
+                    <div class="panel-heading">
+                        <div class="photo">
+                            <img class="avatar" src="assets/img/johndoe.jpeg" id="photo" alt="">
+                        </div>
+                        <div class="user-name">
+                            <h4>John Doe</h4>
+                        </div>
+                    </div>
+                    <div class="panel-body">
+                        <p>
+                            Pellentesque dapibus suscipit ligula. Donec posuere augue in quam. Etiam vel tortor sodales tellus ultricies commodo. Suspendisse
+                            potenti.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="posts">
+                <div class="panel">
+                    <div class="panel-heading">
+                        <div class="photo">
+                            <img class="avatar" src="assets/img/johndoe.jpeg" id="photo" alt="">
+                        </div>
+                        <div class="user-name">
+                            <h4>John Doe</h4>
+                        </div>
+                    </div>
+                    <div class="panel-body">
+                        <p>
+                            Pellentesque dapibus suscipit ligula. Donec posuere augue in quam. Etiam vel tortor sodales tellus ultricies commodo. Suspendisse
+                            potenti.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="posts">
+                <div class="panel">
+                    <div class="panel-heading">
+                        <div class="photo">
+                            <img class="avatar" src="assets/img/johndoe.jpeg" id="photo" alt="">
+                        </div>
+                        <div class="user-name">
+                            <h4>John Doe</h4>
+                        </div>
+                    </div>
+                    <div class="panel-body">
+                        <p>
+                            Pellentesque dapibus suscipit ligula. Donec posuere augue in quam. Etiam vel tortor sodales tellus ultricies commodo. Suspendisse
+                            potenti.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="posts">
+                <div class="panel">
+                    <div class="panel-heading">
+                        <div class="photo">
+                            <img class="avatar" src="assets/img/johndoe.jpeg" id="photo" alt="">
+                        </div>
+                        <div class="user-name">
+                            <h4>John Doe</h4>
+                        </div>
+                    </div>
+                    <div class="panel-body">
+                        <p>
+                            Pellentesque dapibus suscipit ligula. Donec posuere augue in quam. Etiam vel tortor sodales tellus ultricies commodo. Suspendisse
+                            potenti.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
